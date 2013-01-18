@@ -149,11 +149,14 @@ var timerSlider         = null;
 
         // года на главной
         $('.main-company-year-item').mouseover(function() {
-            $('.main-company-year-item').removeClass('active');
-            $(this).addClass('active');
-            var curIndex = $('.main-company-year-item').index($(this));
-            $('.main-company-info-item').removeClass('active');
-            $('.main-company-info-item').eq(curIndex).addClass('active');
+            if (!$(this).hasClass('active')) {
+                $('.main-company-year-item').removeClass('active');
+                $(this).addClass('active');
+                var curIndex = $('.main-company-year-item').index($(this));
+                $('.main-company-info-item:visible').fadeOut(function() {
+                    $('.main-company-info-item').eq(curIndex).fadeIn();
+                });
+            }
         });
 
         // подключение fancybox для изображений на странице каталога

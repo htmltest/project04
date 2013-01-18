@@ -1,0 +1,8 @@
+.adv-block-link a,
+.project-slider-ctrl ul li a,
+.slider-ctrl ul li a,
+.main-vacancy-btn a,
+.order-form-input input,
+.slider-link a {behavior:url(./js/PIE.htc)}
+
+.slider-link a {border:1px solid #514f50; border-top:none}

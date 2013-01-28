@@ -149,9 +149,11 @@ var timerSlider         = null;
 
         // года на главной
         $('.main-company-year-item').mouseover(function() {
-            if (!$(this).hasClass('active')) {
-                $('.main-company-year-item').removeClass('active');
-                $(this).addClass('active');
+            if ($(this).find('div:visible').length == 0) {
+                $('.main-company-info-item').stop(true, true);
+                $('.main-company-year-item div').stop(true, true);
+                $('.main-company-year-item div:visible').fadeOut();
+                $(this).find('div').fadeIn();
                 var curIndex = $('.main-company-year-item').index($(this));
                 $('.main-company-info-item:visible').fadeOut(function() {
                     $('.main-company-info-item').eq(curIndex).fadeIn();

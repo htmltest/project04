@@ -136,7 +136,7 @@ img {border:none}
 .adv-block-photo {width:164px; height:164px; position:relative; margin:0 auto; overflow:hidden}
 .adv-block-photo img {position:absolute; left:2px; top:2px}
 .adv-block-photo span {display:block; position:absolute; left:0; top:0; width:164px; height:164px; background:url(../images/adv-block-photo.png)}
-.adv-block-name {padding:11px 10px 0 10px; text-transform:uppercase; font-size:16px; line-height:16px; color:#fffefe; text-align:center}
+.adv-block-name {padding:11px 10px 0 10px; text-transform:uppercase; font-size:16px; min-height:32px; line-height:16px; color:#fffefe; text-align:center}
 .adv-block-link {text-align:center; position:relative; padding:14px 0 9px 0}
 .adv-block-link a {display:inline-block; position:relative; height:24px; font-size:10px; line-height:26px; padding:0 13px; text-transform:uppercase; color:#fefefe; text-decoration:none; background:url(../images/adv-block-link.png) repeat-x; text-shadow:0 1px 0 #544e50; -webkit-box-shadow:0 1px 2px rgba(0, 0, 0, .35); -moz-box-shadow:0 1px 2px rgba(0, 0, 0, .35); box-shadow:0 1px 2px rgba(0, 0, 0, .35)}
 .adv-block-link a:hover {background:#cd1b28; text-shadow:0 1px 0 rgba(167, 24, 34, .35)}
@@ -285,7 +285,7 @@ img {border:none}
 .main-info-inner {width:959px; margin:0 auto}
 .main-info-inner:after {content:"."; display:block; clear:both; visibility:hidden; height:0}
 
-.main-info-pref {float:left; width:740px}
+.main-info-pref {float:left; width:740px; padding:0 0 18px 0}
 .main-info-pref-title {font:30px/30px "Helvetica-4-Light", arial, helvetica, sans-serif; color:#544f51; padding:38px 0 0 0}
 .main-info-pref-content {width:100%; padding:21px 0 0 0}
 .main-info-pref-content:after {content:"."; display:block; clear:both; visibility:hidden; height:0}
@@ -350,7 +350,8 @@ img {border:none}
 .main-company-year-2002 {left:20px; top:28px; width:60px; height:70px; font-size:23px; line-height:70px; background-position:center top}
 .main-company-year-2012 {left:299px; top:13px}
 .main-company-year-2020 {left:550px; top:8px}
-.main-company-year-item.active {width:88px; height:100px; margin:-10px 0 0 -4px; font-size:34px; line-height:100px; text-shadow:0 1px 0 #d6101e; background-position:left -150px}
+.main-company-year-item div {display:none; position:absolute; left:-4px; top:-10px; width:88px; height:100px; font-size:34px; line-height:100px; text-shadow:0 1px 0 #d6101e; background:url(../images/main-company-year-item.png) left -150px}
+.main-company-year-item.active div {display:block}
 .main-company-info {position:relative}
 .main-company-info-item {display:none; padding:30px 0 0 190px; position:relative}
 .main-company-info .active {display:block}

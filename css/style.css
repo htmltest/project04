@@ -316,7 +316,7 @@ img {border:none}
 .main-catalogue-title {font:30px/30px "Helvetica-4-Light", arial, helvetica, sans-serif; color:#544f51; padding:38px 0 0 0}
 .main-catalogue-content {width:760px; position:relative; padding:19px 0 0 0}
 .main-catalogue-content:after {content:"."; display:block; clear:both; visibility:hidden; height:0}
-.main-catalogue a {float:left; width:150px; padding:1px 10px 0 10px; border-bottom:4px solid #544f51; margin:0 20px 0 0; text-decoration:none; font-size:12px; line-height:16px; color:#f23a48; position:relative; cursor:pointer}
+.main-catalogue a {float:left; width:150px; padding:1px 10px 0 10px; border-bottom:4px solid #544f51; margin:0 20px 0 0; text-decoration:none; font-size:12px; line-height:16px; color:#59788c; position:relative; cursor:pointer}
 .main-catalogue a:hover {background:#f23a48; color:#fff; padding-bottom:4px; border-bottom:0; text-shadow:0 1px 0 #d2090f; -webkit-box-shadow:inset 0 1px 3px rgba(0, 0, 0, .3); -moz-box-shadow:inset 0 1px 3px rgba(0, 0, 0, .3); box-shadow:inset 0 1px 3px rgba(0, 0, 0, .3)}
 .main-catalogue-img {display:block; width:145px; padding:15px 0 0 0; margin:0 auto}
 .main-catalogue-img-inner {display:block; width:145px; height:145px; position:relative; overflow:hidden; text-align:center; background:#fff; line-height:145px}
@@ -545,8 +545,8 @@ img {border:none}
 .order-form-hint-window-top {width:320px; height:35px; background:url(../images/order-form-hint-window.png)}
 .order-form-hint-window-middle {width:320px; background:url(../images/order-form-hint-window.png) repeat-y -320px top}
 .order-form-hint-window-middle:after {content:"."; display:block; clear:both; visibility:hidden; height:0}
-.order-form-hint-text {font:12px/16px arial, helvetica, sans-serif; color:#463f42; float:left; padding:0 15px 0 27px; margin:-18px 0 -12px 0}
-.order-form-hint-window-bottom {width:320px; height:35px; background:url(../images/order-form-hint-window.png) -640px top}
+.order-form-hint-text {font:12px/16px arial, helvetica, sans-serif; color:#463f42; float:left; padding:0 15px 0 27px; margin:-18px 0 2px 0}
+.order-form-hint-window-bottom {width:320px; height:20px; background:url(../images/order-form-hint-window.png) -640px bottom}
 .order-form-types {float:left; width:380px; border-top:2px solid #d9d9d9; border-bottom:1px solid #d9d9d9; margin-top:-1px; margin:0 0 10px 0}
 .order-form-type {width:100%; cursor:pointer; position:relative; border-bottom:1px solid #d9d9d9; height:45px; background:#fff}
 .order-form-type.active {background:#fff3f4}

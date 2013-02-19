@@ -1,0 +1,19 @@
+.top,
+.header-phone-callback,
+.header-contacts a,
+.header-social,
+.header-menu,
+.slider-link,
+.adv-block-photo span,
+.adv-block-link,
+.main-catalogue-img em,
+.main-company-years,
+.main-vacancy-btn,
+.footer-menu,
+.project-photo-inner em,
+.news-photo-inner em,
+.news-block-title a,
+.pager,
+.result-top-print {display:none}
+
+a {color:#000 !important; text-decoration:none !important}

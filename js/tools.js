@@ -138,13 +138,20 @@ var timerSlider         = null;
 
         // каталог на главной странице
         $('.main-catalogue').each(function() {
-            var curMax = 0;
+            var curMax  = 0;
+            var curMax2 = 0;
             $('.main-catalogue-text').each(function() {
                 if (curMax < $(this).height()) {
                     curMax = $(this).height();
                 }
             });
+            $('.main-catalogue-data').each(function() {
+                if (curMax2 < $(this).height()) {
+                    curMax2 = $(this).height();
+                }
+            });
             $('.main-catalogue-text').height(curMax);
+            $('.main-catalogue-data').height(curMax2);
         });
 
         // года на главной
@@ -249,6 +256,42 @@ var timerSlider         = null;
                 }
             });
 
+        });
+
+        // форма заказа обратного звонка
+        $.Placeholder.init({color: '#a5a5a5'});
+        $('#window-subscribe form').validate();
+
+        $('.header-phone-callback a').click(function() {
+            $('.overlay').show();
+            $('#window-subscribe').show();
+            $('#window-subscribe').css({'margin-top':-$('#window-subscribe').height() / 2});
+            return false;
+        });
+
+        $('.window-close a').click(function() {
+            $('.window').hide();
+            $('.overlay').hide();
+            return false;
+        });
+
+        $('.overlay').click(function() {
+            $('.window').hide();
+            $('.overlay').hide();
+        });
+
+        $('body').keypress(function(e) {
+            if (e.keyCode == 27) {
+                $('.window').hide();
+                $('.overlay').hide();
+            }
+        });
+
+        $('body').keydown(function(e) {
+            if (e.keyCode == 27) {
+                $('.window').hide();
+                $('.overlay').hide();
+            }
         });
 
     });

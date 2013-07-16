@@ -1,3 +1,41 @@
 .main-docs a {display:block; width:175px}
 .main-docs-icon {float:left}
 .main-docs-name {float:left}
+
+.order-form-type {z-index:9}
+.order-form-type+.order-form-type {z-index:8}
+.order-form-type+.order-form-type+.order-form-type {z-index:7}
+.order-form-type+.order-form-type+.order-form-type+.order-form-type {z-index:6}
+.order-form-type+.order-form-type+.order-form-type+.order-form-type+.order-form-type {z-index:5}
+.order-form-type+.order-form-type+.order-form-type+.order-form-type+.order-form-type+.order-form-type {z-index:4}
+.order-form-type+.order-form-type+.order-form-type+.order-form-type+.order-form-type+.order-form-type+.order-form-type {z-index:3}
+.order-form-type+.order-form-type+.order-form-type+.order-form-type+.order-form-type+.order-form-type+.order-form-type+.order-form-type {z-index:2}
+.order-form-type+.order-form-type+.order-form-type+.order-form-type+.order-form-type+.order-form-type+.order-form-type+.order-form-type+.order-form-type {z-index:1}
+.order-form-types-2 {zoom:1; position:relative}
+.order-form-input  {zoom:1}
+.order-form-type-2 {z-index:9}
+.order-form-type-2+.order-form-type-2 {z-index:8}
+.order-form-type-2+.order-form-type-2+.order-form-type-2 {z-index:7}
+.order-form-type-2+.order-form-type-2+.order-form-type-2+.order-form-type-2 {z-index:6}
+.order-form-type-2+.order-form-type-2+.order-form-type-2+.order-form-type-2+.order-form-type-2 {z-index:5}
+.order-form-type-2+.order-form-type-2+.order-form-type-2+.order-form-type-2+.order-form-type-2+.order-form-type-2 {z-index:4}
+.order-form-type-2+.order-form-type-2+.order-form-type-2+.order-form-type-2+.order-form-type-2+.order-form-type-2+.order-form-type-2 {z-index:3}
+.order-form-type-2+.order-form-type-2+.order-form-type-2+.order-form-type-2+.order-form-type-2+.order-form-type-2+.order-form-type-2+.order-form-type-2 {z-index:2}
+.order-form-type-2+.order-form-type-2+.order-form-type-2+.order-form-type-2+.order-form-type-2+.order-form-type-2+.order-form-type-2+.order-form-type-2+.order-form-type-2 {z-index:1}
+.order-form-radio {z-index:9; position:relative}
+.order-form-radio+.order-form-radio+.order-form-radio {z-index:8}
+.order-form-radio+.order-form-radio+.order-form-radio+.order-form-radio {z-index:7}
+.order-form-radio+.order-form-radio+.order-form-radio+.order-form-radio+.order-form-radio {z-index:6}
+.order-form-radio+.order-form-radio+.order-form-radio+.order-form-radio+.order-form-radio+.order-form-radio {z-index:5}
+.order-form-radio+.order-form-radio+.order-form-radio+.order-form-radio+.order-form-radio+.order-form-radio+.order-form-radio {z-index:4}
+.order-form-radio+.order-form-radio+.order-form-radio+.order-form-radio+.order-form-radio+.order-form-radio+.order-form-radio+.order-form-radio {z-index:3}
+.order-form-radio+.order-form-radio+.order-form-radio+.order-form-radio+.order-form-radio+.order-form-radio+.order-form-radio+.order-form-radio+.order-form-radio {z-index:2}
+.order-form-radio+.order-form-radio+.order-form-radio+.order-form-radio+.order-form-radio+.order-form-radio+.order-form-radio+.order-form-radio+.order-form-radio+.order-form-radio {z-index:1}
+.order-form-label:hover,
+.order-form-part-title:hover,
+.order-form-type:hover,
+.order-form-type-name:hover,
+.order-form-type-2:hover,
+.order-form-type-2-name:hover,
+.order-form-subpart-title {z-index:99; position:relative}
+.order-form-hint {display:inline; zoom:1}

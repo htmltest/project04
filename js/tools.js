@@ -259,7 +259,9 @@ var timerSlider         = null;
         });
 
         // форма заказа обратного звонка
-        $.Placeholder.init({color: '#a5a5a5'});
+        if (!($.browser.msie && $.browser.version < 8)) {
+            $.Placeholder.init({color: '#a5a5a5'});
+        }
         $('#window-subscribe form').validate();
 
         $('.header-phone-callback a').click(function() {

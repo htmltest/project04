@@ -13,6 +13,11 @@
                 curLink.find('.main-docs-name').css({'padding-top': (curLinkHeight - curNameHeight) / 2});
             }
         });
+
+        $('.slider-ctrl ul li a span').each(function() {
+            var curHeight = $(this).height();
+            $(this).css({'padding-top': (67 - curHeight) / 2, 'padding-bottom': (67 - curHeight) / 2});
+        });
     });
 
 })(jQuery);

@@ -39,3 +39,7 @@
 .order-form-type-2-name:hover,
 .order-form-subpart-title {z-index:99; position:relative}
 .order-form-hint {display:inline; zoom:1}
+
+.slider-ctrl ul li a {display:block; cursor:pointer}
+.slider-ctrl ul li a span {display:block; height:auto}
+.slider-ctrl ul li.active a {margin-top:0; padding-top:0}
